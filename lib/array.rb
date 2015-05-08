@@ -1,8 +1,12 @@
 class Array
   def myselect
     new_array = []
-    each { |element| new_array << element if yield(element) == true }
-    new_array
+    if block_given?
+      each { |element| new_array << element if yield(element) == true }
+      new_array
+    else
+      to_enum(:myselect)
+    end
   end
 
   def myselect_recursive(new_array = [], &block)
