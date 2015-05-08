@@ -43,5 +43,10 @@ describe Array do
         array.size == 3
       end).to eq([%w(I Am Pilgrim)])
     end
+
+    it 'returns enumerator if no block is given' do
+      arr = [4, 8, 15, 16, 23, 42]
+      expect(arr.myselect_recursive).to be_an_instance_of(Enumerator)
+    end
   end
 end
