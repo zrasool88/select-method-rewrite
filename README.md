@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/zrasool88/select-method-rewrite/badges/gpa.svg)](https://codeclimate.com/github/zrasool88/select-method-rewrite) [![Test Coverage](https://codeclimate.com/github/zrasool88/select-method-rewrite/badges/coverage.svg)](https://codeclimate.com/github/zrasool88/select-method-rewrite/coverage) [![Build Status](https://travis-ci.org/zrasool88/select-method-rewrite.svg)](https://travis-ci.org/zrasool88/select-method-rewrite) [![Dependency Status](https://gemnasium.com/zrasool88/select-method-rewrite.svg)](https://gemnasium.com/zrasool88/select-method-rewrite)
+
 #Description
 Post course practice. Re-writing ruby's select method.
 
@@ -9,6 +11,7 @@ Post course practice. Re-writing ruby's select method.
 
 #Learning Objective
 1. To understand how the select method work
+2. To understand blocks and procs (specially in the context of yield)
 
 #How to use
 
